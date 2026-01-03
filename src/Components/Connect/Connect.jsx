@@ -1,4 +1,5 @@
 import React from 'react'
+import { IoLogoGithub, IoMail, IoPhonePortrait } from 'react-icons/io5'
 
 const Connect = () => {
   return (
@@ -21,7 +22,7 @@ const Connect = () => {
                     placeholder='type your message here..'  maxLength="300">
                    </textarea>
                    <div>
-                    <button className='bg-blue-900 text-white px-4 py-2 rounded-md mt-2'>Send Message</button>
+                    <button className='bg-[#f4ddb9] px-4 py-2 rounded-md mt-2'>Send Message</button>
                   </div>
                    
                </div>
@@ -29,31 +30,37 @@ const Connect = () => {
             <div className=' col-span-1 border-2 border-gray-200 rounded-md px-3 shadow-lg py-3'>
                   <p className='mt-2 text-[1.5rem] font-semibold'>Contact Information</p>
                   <div className='h-20 w-full flex items-center '>
-                    <div className='bg-pink-200 h-15 w-15 rounded-[50px] ml-3 flex justify-center items-center'>home</div>
+                    <div className='bg-[#f4ddb9] h-15 w-15 rounded-[50px] ml-3 flex justify-center items-center'>
+                       <IoMail style={{fontSize:"20px"}}/>
+                    </div>
                     <div className='ml-5 '>
                        <p className='font-semibold text-[1rem]'>Email Address</p>
                         <p className='text-gray-400 mt-1'>example@example.com</p>
                     </div>
                   </div>
-                  <div className='h-20 w-full  flex items-center '>
-                    <div className='bg-blue-200 h-15 w-15 rounded-[50px] ml-3 flex justify-center items-center'>home</div>
+                  {/* <div className='h-20 w-full  flex items-center '>
+                    <div className='bg-[#f4ddb9] h-15 w-15 rounded-[50px] ml-3 flex justify-center items-center'>
+                       <IoPhonePortrait style={{fontSize:"20px"}}/>
+                    </div>
                     <div className='ml-5'>
                        <p className='font-semibold text-[1rem]'>Phone Number</p>
                         <p className='text-gray-400 mt-1'>+1 (123) 456-7890</p>
                     </div>
-                  </div>
-                  <div className='h-20 w-full flex items-center '>
-                    <div className='bg-green-200 h-15 w-15 rounded-[50px] ml-3 flex justify-center items-center'>home</div>
+                  </div> */}
+                  {/* <div className='h-20 w-full flex items-center '>
+                    <div className='bg-[#f4ddb9] h-15 w-15 rounded-[50px] ml-3 flex justify-center items-center'>
+                      home
+                    </div>
                     <div className='ml-5'>
                        <p className='font-semibold text-[1rem]'>Location</p>
                         <p className='text-gray-400 mt-1'>your City, Country</p>
                     </div>
-                  </div>
+                  </div> */}
                   <div className=' h-23 '>
-                    <p className='font-semibold text-[1rem] '>Connect with me</p>
-                    <div className='flex' > 
-                      <div className='bg-green-200 h-15 w-15 rounded-[50px] ml-3  mt-1 flex justify-center items-center' title='github'> GIT</div>
-                      <div className='bg-green-200 h-15 w-15 rounded-[50px] ml-3  mt-1 flex justify-center items-center' title='twitter'> X </div>
+                    <p className='font-semibold text-[1rem] ml-10 my-5'>Connect with me</p>
+                    <div className='flex ml-8' > 
+                      <div className='bg-[#f4ddb9] h-15 w-15 rounded-[50px] ml-3  mt-1 flex justify-center items-center' title='github'><IoLogoGithub style={{fontSize:"24px"}}/></div>
+                      <div className='bg-[#f4ddb9] h-15 w-15 rounded-[50px] ml-3  mt-1 flex justify-center items-center font-semibold text-[20px]' title='twitter'> X </div>
                     </div>
                   
                   </div>

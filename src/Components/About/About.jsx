@@ -10,7 +10,7 @@ const About = () => {
   return (
     <div>
           <div className=' px-20 mt-5 py-2  h-100'>
-               <div className='grid grid-cols-2 gap-4   '>
+               <div className='grid grid-cols-2 gap-4 mt-10  '>
                     <div className=' col-span-1 border-2 border-gray-200 rounded-md px-3  shadow-lg'>
                        <div className='h-80 px-30 text-justify'>
                            <span className='text-[1.5rem] flex justify-center mb-5 font-medium  '>
@@ -45,25 +45,25 @@ const About = () => {
                                       >
                                          
                                           <SwiperSlide >
-                                            <div  className='bg-blue-100 h-80 w-80 pt-20 pl-15 text-[1.5rem] '>HTML</div> 
+                                            <div  className='bg-[#f4ddb9] h-80 w-80 pt-20 pl-15 text-[1.5rem] ' title='swipe'>HTML</div> 
                                           </SwiperSlide>
                                         <SwiperSlide>
-                                            <div className='bg-red-100 h-80 w-80  pt-20 pl-15 text-[1.5rem]'>CSS</div> 
+                                            <div className='bg-[#f4ddb9] h-80 w-80  pt-20 pl-15 text-[1.5rem]'>CSS</div> 
                                         </SwiperSlide>
                                           <SwiperSlide>
-                                            <div className='bg-pink-100 h-80 w-80 pt-20 pl-15 text-[1.5rem]'>REACT</div> 
+                                            <div className='bg-[#f4ddb9] h-80 w-80 pt-20 pl-15 text-[1.5rem]'>REACT</div> 
                                         </SwiperSlide>
                                           <SwiperSlide>
-                                            <div className='bg-purple-100 h-80 w-80 pt-20 pl-10 text-[1.5rem]'>JAVASCRIPT</div> 
+                                            <div className='bg-[#f4ddb9] h-80 w-80 pt-20 pl-10 text-[1.5rem]'>JAVASCRIPT</div> 
                                         </SwiperSlide>
                                           <SwiperSlide>
-                                            <div className='bg-yellow-100 h-80 w-80 pt-20 pl-10 text-[1.5rem]'>TAILWIND</div> 
+                                            <div className='bg-[#f4ddb9]   h-80 w-80 pt-20 pl-10 text-[1.5rem]'>TAILWIND</div> 
                                         </SwiperSlide>
                                           <SwiperSlide>
-                                            <div className='bg-orange-100 h-80 w-80 pt-20 pl-10 text-[1.5rem]'>BOOTSTRAP</div> 
+                                            <div className='bg-[#f4ddb9] h-80 w-80 pt-20 pl-10 text-[1.5rem]'>BOOTSTRAP</div> 
                                         </SwiperSlide>
                                             <SwiperSlide>
-                                            <div className='bg-gray-300 h-80 w-80 pt-20 pl-15 text-[1.5rem]'>GIT</div> 
+                                            <div className='bg-[#f4ddb9] h-80 w-80 pt-20 pl-15 text-[1.5rem]'>GIT</div> 
                                         </SwiperSlide>
                                         
                                       </Swiper>    
@@ -71,7 +71,7 @@ const About = () => {
                                  </div>  
                               {
                                   isHovered?
-                                   <div className=' flex items-center justify-between w-151 absolute  bottom-30'> 
+                                   <div className=' flex items-center justify-between w-151 absolute  bottom-0'> 
                                    <button className='bg-gray-200 h-10 w-10 ml-10 rounded-[50px] flex justify-center items-center text-[1.5rem] animate-pulse '>
                                      <icon><IoChevronForwardOutline /></icon>
                                     </button>
