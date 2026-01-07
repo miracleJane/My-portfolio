@@ -9,9 +9,9 @@ const About = () => {
   const [isHovered, setIsHovered] = useState(false)
   return (
     <div>
-          <div className=' xl:px-20 px-5 mt-5  py-10 md:py-0  xl:h-80  rounded-md shadow-sm '>
-               <div className='md:grid grid-cols-2 gap-4 mt-10  '>
-                    <div className=' col-span-1 border-2 border-[#f4ddb9] rounded-md px-3  shadow-lg'>
+          <div className=' xl:px-20 px-5 mt-5  py-10 md:py-0  xl:h-max '>
+               <div className='md:grid grid-cols-2 gap-4 mt-10   '>
+                    <div className=' col-span-1 border-2 border-[#f4ddb9] rounded-md px-3   shadow-lg'>
                        <div className='h-70 xl:px-15 lg:px-10 sm:px-20 md:px-0 overflow-scroll'>
                            <span className='text-[1.5rem] mb-5 flex justify-center  font-medium '>
                                 ABOUT 

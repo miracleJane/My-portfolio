@@ -5,7 +5,7 @@ const Connect = () => {
   return (
     <div className=' px-10'>
         <p className=' text-[2rem] mt-5 px-10 '>Get In Touch</p>
-        <div className=' w-full gap-5 grid grid-cols-2 px-10 '>
+        <div className=' w-full flex-col  gap-5 md:grid grid-cols-2 px-10 '>
             <div className='col-span-1 border-2 border-gray-200 rounded-md px-3 shadow-lg py-3'>
                <p className='mt-2 text-[1.5rem] font-semibold'>Send Me A Message</p>
                <div className='mt-3 '>
