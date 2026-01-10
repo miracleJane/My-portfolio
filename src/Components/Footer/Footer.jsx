@@ -3,8 +3,8 @@ import React from 'react'
 const Footer = () => {
   return (
     <div>
-        <div className='w-full  h-80 px-20 '>
-            <div className='bg-[#f4ddb9]  shadow-sm w-full h-60 px-50 flex justify-between  '>
+        <div className='w-full  h-80 md:px-20  '>
+            <div className='bg-[#f4ddb9]  shadow-sm w-full h-60 px-10 md:px-50 flex justify-between  '>
                 <div >
                     <p className='font-medium text-[1.5rem] mt-5  '>Quick Link</p>
                      <p className='mt-2'>Home</p>

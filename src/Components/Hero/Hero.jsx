@@ -18,27 +18,27 @@ const Hero = () => {
              md:w-full  sm:grid grid-cols-2  sm:gap-4   mt-5  md:shadow-none md:border-0  mx-5  md:mx-0    '>
            <div className='  py-2 px-2 gap-2 flex-col 
            
-                 md:col-span-1   md:items-center md:justify-center  flex  rounded-md    '>
+                 md:col-span-1   md:items-center md:justify-center  flex  rounded-md   '>
               <Swiper
                     effect={'flip'}
                     grabCursor={true}
                     pagination={true}
                     navigation={true}
-                    modules={[EffectFlip, Pagination, Navigation]}
-                    className=" w-[70%] sm:w-[100%]  h-90 sm:h-90 md:h-100   md:w-[90%] lg:w-[60%] lg:h-100   xl:w-[60%] xl:h-110  "
+                    modules={[EffectFlip, Pagination, ]}
+                    className=" w-full h-[70%]
+                       sm:w-[90%] sm:h-full md:w-[70%] lg:h-full  lg:w-[60%] "
                     >
                     <SwiperSlide>
-                            <div className='sm:w-full h-70 sm:h-80  md:h-90   lg:h-90 xl:h-100
-                            
+                            <div className=' mt-10 md:mt-10 
+                              
                                 flex items-center justify-center'>
-                              <img src={img} style={{width:"100%", height:"100%"}}  alt="" />
+                              <img src={img} className=' rounded-[50%] h-[50%]  sm:h-full sm:w-full w-[80%] lg:w-[90%] lg:h-[90%] ' alt="" />
                             </div>
                     </SwiperSlide>
-                        <SwiperSlide>
-                            <div className=' w-full sm:h-80 md:h-90  h-70   lg:h-90 xl:h-100
-                            
-                              flex items-center justify-center'>
-                                  <img src={img} style={{width:"100%", height:"100%"}} alt="" />
+                    <SwiperSlide>
+                            <div className=' mt-10 md:mt-10 
+                                flex items-center justify-center'>
+                              <img src={img} className=' rounded-[50%] h-[50%]  sm:h-full sm:w-full w-[80%] lg:w-[90%] lg:h-[90%] ' alt="" />
                             </div>
                     </SwiperSlide>
                         
@@ -48,8 +48,8 @@ const Hero = () => {
 
                 {/* mobile */}
 
-                 <div className=' sm:hidden mb-5 text-center   w-full ' >
-                   <p className='  text-[2rem] mt-5   font-semibold '>Frontend Developer</p>
+                 <div  className=' sm:hidden mb-5 text-center   w-full ' >
+                   <p className='  text-[2rem]   font-semibold '>Frontend Developer</p>
                    <p className=' text-[1rem]    '>building responsive and interactive web applications</p>
                    <div className=' flex  items-center justify-center mt-6  gap-4'>
                     <button className=' w-30 h-15 shadow-lg border border-[#f4ddb9] '>view projects</button>
@@ -58,7 +58,7 @@ const Hero = () => {
                  </div>
           
            </div>
-           <div className=' hidden
+           <div  className='  hidden
                     sm:col-span-1 sm:flex items-center sm:justify-center   rounded-md    px-10  '>
                   <div >
                      <p className=' sm:text-[2rem] md:text-[3rem]  font-semibold '>Frontend Developer</p>
