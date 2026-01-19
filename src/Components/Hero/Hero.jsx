@@ -13,7 +13,7 @@ import { Link } from 'react-router-dom';
 
 const Hero = () => {
   return (
-    <div className='px-10 md:px-5'>
+    <div className=' md:px-5'>
         <div className=' 
         
              md:w-full  sm:grid grid-cols-2  sm:gap-4   mt-5  md:shadow-none md:border-0  mx-5  md:mx-0    '>
@@ -49,10 +49,10 @@ const Hero = () => {
 
                 {/* mobile */}
 
-                 <div  className=' sm:hidden mb-5 text-center   w-full ' >
+                 <div  className=' sm:hidden mb-5 text-center   w-full bg-red-400 ' >
                    <p className='  text-[2rem]   font-semibold '>Frontend Developer</p>
                    <p className=' text-[1rem]    '>building responsive and interactive web applications</p>
-                   <div className=' flex  items-center justify-center mt-6  gap-4'>
+                   <div className=' flex  items-center justify-center mt-6  gap-4 bg-amber-300'>
                    <Link to="/project"> <button className=' w-30 h-15 shadow-lg border border-[#f4ddb9] '>view projects</button></Link>
                    <button className='w-30 h-15  border shadow-lg border-[#f4ddb9] '><a href='#connect'>contact me </a></button>
                    </div>
