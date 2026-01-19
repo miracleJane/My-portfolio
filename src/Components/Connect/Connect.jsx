@@ -86,7 +86,7 @@ const Connect = () => {
                         <IoLogoGithub style={{fontSize:"24px"}}/>
                         </a>
                       </div>
-                      <div className='bg-[#f4ddb9] h-15 w-15 rounded-[50px] ml-3  mt-1 flex justify-center items-center font-semibold text-[20px]' title='twitter'> <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">X</a> </div>
+                      <div className='bg-[#f4ddb9] h-15 w-15 rounded-[50px] ml-3  mt-1 flex justify-center items-center font-semibold text-[20px]' title='twitter'> <a href="https://x.com/jane_oe1?s=21" target="_blank" rel="noopener noreferrer">X</a> </div>
                     </div>
                   
                   </div>
