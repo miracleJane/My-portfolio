@@ -11,25 +11,25 @@ import { img } from "motion/react-client";
 
 const LoopingScroll = () => {
   const items = [
-       { name:"HTML",
+       { name:"Html",
          image:html
        },
-        { name:"CSS",
+        { name:"Css",
          image: css
        },
-       { name:"JAVASCRIPT",
+       { name:"JavaScript",
          image: js
        },
-         { name:"REACT",
+         { name:"React",
          image: react
        },
-        { name:"TAILWIND",
+        { name:"Tailwind ",
          image: tw
        },
-        { name:"BOOTSTRAP",
+        { name:"Bootstrap",
          image: bt
        },
-        { name:"GITHUB",
+        { name:"GitHub",
          image: git
        },
       
@@ -42,7 +42,7 @@ const LoopingScroll = () => {
   const loopedItems = [ ...items, ...items];
 
   return (
-    <div style={{ overflow: "hidden", width: "700px", 
+    <div style={{ overflow: "hidden", width: "100%", 
      height:"150px", border: "", backgroundColor:"", display:"flex" }}>
        
       <motion.div
@@ -53,15 +53,16 @@ const LoopingScroll = () => {
         animate={{ x: ["0%", "-50%"] }} // move left by half of total width
         transition={{
           repeat: Infinity,
-          duration: 5,
+            repeatType: "loop",
+          duration: 12,
           ease: "linear"
         }}
       >
         {loopedItems.map((items) => (
           <div key={items} style={{ minWidth: "100px",
            display:"flex", justifyContent:"center", alignItems:"center"}}>
-           <div className="  w-[120px] items-center justify-center ">
-               <div className=" flex items-center justify-center"> <img src={items.image} style={{height:"50px"}} alt="" /> </div>
+           <div className=" h-30 w-[170px] pt-5 border-[#ac9797] border mx-2 ">
+               <div className=" flex items-center justify-center  "> <img src={items.image} style={{height:"50px"}} alt="" /> </div>
                <div><p className="text-[20px] font-medium text-center "> {items.name}</p></div>
            </div>
           </div>

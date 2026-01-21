@@ -37,12 +37,16 @@
 
 
 body {
-  background: linear-gradient(
+     background: linear-gradient(
     135deg,
-     #636467,
-    #c8c9ce
+    #4d4b4b,
+    #683232,
+    #89686c,
+    #6f6560
   );
-  color: #141515;
+
+  color: d4d0c8; 
+ 
 } 
 
 html{

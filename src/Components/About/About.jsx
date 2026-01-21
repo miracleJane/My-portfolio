@@ -20,16 +20,16 @@ const About = () => {
   return (
     <div>
           
-          <div className=' lg:px-5 px-5 mt-5  py-10 md:py-0  xl:h-max '>
+          <div className='  mt-5  py-10 md:py-0  xl:h-max '>
                <div className=' gap-4 mt-10   '>
-                    <div className=' col-span-1   rounded-md px-3 '> 
+                    <div className=' col-span-1 lg:px-20 px-5  rounded-md  '> 
                        <div data-aos="fade-up"
 
-                           className='h-70 px-5 xl:px-15 lg:px-10 sm:px-20 md:px-0 overflow-scroll md:overflow-hidden shadow-sm border-2 border-[#f4ddb9]'>
+                           className='h-70 px-5 xl:px-15 lg:px-10 sm:px-20 md:px-0 overflow-scroll md:overflow-hidden shadow-sm border border-[#ddd3c3]  rounded-md  '>
                            <span className='text-[1.5rem] md:text-[2rem] mb-5 flex justify-center  font-medium '>
                                 ABOUT 
                            </span>
-                           <p  className='sm:text-center sm:px-5 '>
+                           <p  className='sm:text-center sm:px-5 font-medium text-[#dbbfbf] '>
                                Hi there! I'm Jane, a front-end developer who's passionate about building innovative web applications.
                                  What drives me is the opportunity to transform my passion into practical 
                                  solutions that address real-life challenges. I specialize in creating web apps
@@ -40,17 +40,17 @@ const About = () => {
                     </div> 
                     <div >
                        
-                         <div className='col-span-1 h-80 md:h-90  rounded-md px-3 mt-10 sm:mt-20  '>
+                         <div className='col-span-1 h-80 md:h-90  rounded-md  mt-10 sm:mt-20  '>
                                <p className=' text-[1.5rem] sm:text-[2rem]  font-medium sm:font-semibold flex mb-5 justify-center ' >Technical Skills</p>
-                               <div className='h-40 sm:h-40 md:h-70  pt-10 relative'>
+                               <div className='h-40 sm:h-40 md:h-70  pt-10  relative'>
                                  
-                                <div className='flex justify-center'>
+                                <div className='flex justify-center font-mono'>
                                      <Motion/>
 
                                 </div>
                                 
                                  
-                                <p className='  text-[1rem] text-center mt-5 font-medium '>The tools I use to build clean, functional web projects.</p>
+                                <p className='  text-[1rem] text-center mt-5 font-medium text-[#dbbfbf] '>The tools I use to build clean, functional web projects.</p>
                                  
   
                                       

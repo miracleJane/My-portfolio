@@ -7,7 +7,7 @@ import logo from "../../assets/Icon/Logo.svg"
 const Navbar = () => {
    const [Dropdown,setDropdown]=useState(false)
   return (
-    <div className='bg-[#f0e3cd] z-100 sticky top-0'>
+    <div className='bg-[#ddd3c3] z-100 sticky top-0'>
         <div className='md:w-full  md:h-20 flex h-15 w-full   px-5 '>
            <div className=' w-[50%] flex items-center 
              md:w-[50%] md:flex  md:items-center'>
@@ -29,11 +29,11 @@ const Navbar = () => {
                         data-aos-offset="500"
                         data-aos-duration="500"
                     
-                         className='md:hidden absolute top-10 right-0 text-center bg-[#fbedd7] w-50 h-40' >
-                       <Link to={'/'}><h2 className=' mt-3 hover:bg-[#f4ddb9] ' >Home</h2></Link>
-                      <h2 className='mt-3 border-b border-gray-200 hover:bg-[#f4ddb9]'>About</h2>
-                      <Link to={'/project'}><h2 className='mt-3 border-b border-gray-200 hover:bg-[#f4ddb9]'>Projects</h2></Link> 
-                      <h2 className='mt-3 border-b border-gray-200 hover:bg-[#f4ddb9]'>Contact</h2>
+                         className='md:hidden absolute top-15 right-0 text-center  bg-[#e8e6e3] w-50 h-40' >
+                       <Link to={'/'}><h2 className=' mt-3 hover:bg-[#876267] ' >Home</h2></Link>
+                      <h2 className='mt-3  hover:bg-[#876267]'>About</h2>
+                      <Link to={'/project'}><h2 className='mt-3  hover:bg-[#876267]'>Projects</h2></Link> 
+                      <h2 className='mt-3  hover:bg-[#876267]'>Contact</h2>
                  </div>
             }
            

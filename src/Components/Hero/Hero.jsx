@@ -53,8 +53,8 @@ const Hero = () => {
                    <p className='  text-[2rem]   font-semibold '>Frontend Developer</p>
                    <p className=' text-[1rem]    '>building responsive and interactive web applications</p>
                    <div className=' flex  items-center justify-center mt-6  gap-4 '>
-                   <Link to="/project"> <button className=' w-30 h-15 shadow-lg border border-[#f4ddb9] '>view projects</button></Link>
-                   <button className='w-30 h-15  border shadow-lg border-[#f4ddb9] '><a href='#connect'>contact me </a></button>
+                   <Link to="/project"> <button className=' w-30 h-15 shadow-lg border border-[#ddd3c3] text-[#dbbfbf] '>view projects</button></Link>
+                   <button className='w-30 h-15  border shadow-lg border-[#ddd3c3]  text-[#dbbfbf]'><a href='#connect'>contact me </a></button>
                    </div>
                  </div>
           
@@ -65,8 +65,8 @@ const Hero = () => {
                      <p className=' sm:text-[2rem] md:text-[3rem]  font-semibold '>Frontend Developer</p>
                      <p className='xl:text-[1.5rem] md:text-[1rem]   '>building  responsive and interactive web applications</p>
                   <div className='w-65 flex items-center justify-between mt-6 '>
-                   <Link to="/project"><button className=' w-30 h-15 shadow-lg border border-[#f4ddb9]'>view projects</button></Link> 
-                    <button className='w-30 h-15  border shadow-lg border-[#f4ddb9] '><a href='#connect'>contact me </a></button>
+                   <Link to="/project"><button className=' w-30 h-15 shadow-lg border border-[#ddd3c3] text-[#dbbfbf]'>view projects</button></Link> 
+                    <button className='w-30 h-15  border shadow-lg border-[#ddd3c3] text-[#dbbfbf]'><a href='#connect'>contact me </a></button>
                   </div>
                 </div>
            
