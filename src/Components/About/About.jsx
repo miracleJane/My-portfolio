@@ -25,17 +25,22 @@ const About = () => {
                     <div className=' col-span-1 lg:px-20 px-5  rounded-md  '> 
                        <div data-aos="fade-up"
 
-                           className='h-70 px-5 xl:px-15 lg:px-10 sm:px-20 md:px-0 overflow-scroll md:overflow-hidden shadow-sm border border-[#ddd3c3]  rounded-md  '>
-                           <span className='text-[1.5rem] md:text-[2rem] mb-5 flex justify-center  font-medium '>
-                                ABOUT 
-                           </span>
-                           <p  className='sm:text-center sm:px-5 font-medium text-[#dbbfbf] '>
-                               Hi there! I'm Jane, a front-end developer who's passionate about building innovative web applications.
-                                 What drives me is the opportunity to transform my passion into practical 
-                                 solutions that address real-life challenges. I specialize in creating web apps
-                                  that combine creativity with solid functionality. I'm committed to continuous learning
-                                   and expanding my expertise into new areas of development.
-                           </p>
+                           className='h-70 lg:h-55 px-5 xl:px-15 lg:px-10 
+                            sm:px-20 md:px-0 overflow-scroll md:overflow-hidden shadow-sm border border-[#ddd3c3]  rounded-md  '>
+                            <div>
+                                  <span className='text-[1.5rem] md:text-[2rem] md:mt-10 mb-5 flex justify-center  font-medium '>
+                                    ABOUT 
+                                </span>
+                            </div>
+                           <div>
+                               <p  className=' sm:text-center sm:px-5 font-medium text-[#dbbfbf] lg:flex lg:items-center lg:justify-center  '>
+                                  Hi there! I'm Jane, a front-end developer who's passionate about building innovative web applications.
+                                    What drives me is the opportunity to transform my passion into practical 
+                                    solutions that address real-life challenges. I specialize in creating web apps
+                                      that combine creativity with solid functionality. I'm committed to continuous learning
+                                      and expanding my expertise into new areas of development.
+                              </p>
+                           </div>
                       </div> 
                     </div> 
                     <div >
